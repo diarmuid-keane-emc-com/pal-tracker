@@ -4,13 +4,6 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
-  - CF_API_URL=apps.run.pivotal.io  
-  - CF_ORG=org.diarmuidkeane
-  - CF_SPACE=development
-  - CF_USERNAME=diarmuid.keane@emc.com
-  - CF_PASSWORD=P1votal.com
-  - GITHUB_USERNAME=diarmuid-keane-emc-com
-  - GITHUB_OAUTH_TOKEN=ed302faf28cd4ac330a14e9a12e28338de563fdb  
 
 if: tag IS blank
 
